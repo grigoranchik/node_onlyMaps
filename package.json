@@ -11,6 +11,7 @@
     "http-errors": "^1.6.3",
     "jade": "^1.11.0",
     "leaflet-rotatedmarker": "^0.2.0",
+    "leaflet.bezier": "0.0.3-alpha",
     "morgan": "^1.9.0"
   },
   "devDependencies": {
