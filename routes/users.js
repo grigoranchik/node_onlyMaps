@@ -22,7 +22,7 @@ router.get('/static/myJson.JSON', function (req, res) {
             if(error) throw error; // если возникла ошибка
             var myObj = data;
             res.writeHead(200, {'Content-Type': 'application/json'});
-            res.end(myObj); //JSON.stringify(myObj, null, 2)
+            res.end(JSON.stringify(JSON.parse(myObj), null, 2)); //JSON.stringify(myObj, null, 2) //JSON.stringify(obj, undefined, 4);
         });
 });
 
